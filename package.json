@@ -1,0 +1,20 @@
+{
+  "name": "my-icon-pack",
+  "type": "module",
+  "displayName": "My Icon Pack",
+  "description": "Basic Icon Theme for Hare",
+  "version": "0.0.1",
+  "publisher": "hare-samples",
+  "license": "GPL-3.0",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/Hare-IDE/Icon-Pack"
+  },
+  "contributes": {
+    "iconPack": [{
+				"id": "my-icon-pack-name",
+				"label": "My cool icon pack",
+				"path": "./src/my-icon-pack-name.json"
+    }]
+  }
+}
